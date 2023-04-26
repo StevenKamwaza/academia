@@ -6,7 +6,7 @@ function Home() {
   return (
     <section>
         <Hero/>
-       <div className='container'> <HeroCards/></div>
+       <div className='container mb-4'> <HeroCards/></div>
     </section>
   )
 }
