@@ -43,28 +43,28 @@ function Navbar() {
           <div className="text-sm md:flex-grow">
             <a
               href="/"
-              className={`${location.pathname === "/" && "underline decoration-blue-600 "} block mt-4 lg:inline-block lg:mt-0 text-white-200 text-lg font-medium text-blue-600 hover:text-gray-600 hover:scale-105 mr-6 md:mr-10`}>
+              className={`${location.pathname === "/" && "underline decoration-blue-600 "} block mt-4 lg:inline-block lg:mt-0 text-white-200 text-lg md:text-xl font-medium text-blue-600 hover:text-gray-600 hover:scale-105 mr-6 md:mr-10`}>
               Home
             </a>
             <a
               href="/about"
-              className={`${location.pathname === "/about" && "underline decoration-blue-600 "} block mt-4 lg:inline-block lg:mt-0 text-white-200 text-lg font-medium text-blue-600 hover:text-gray-600 hover:scale-105 mr-6 md:ml-10`}>
+              className={`${location.pathname === "/about" && "underline decoration-blue-600 "} block mt-4 lg:inline-block lg:mt-0 text-white-200 text-lg md:text-xl font-medium text-blue-600 hover:text-gray-600 hover:scale-105 mr-6 md:ml-10`}>
               About
             </a>
             <a
               href="/services"
-              className={`${location.pathname === "/services" && "underline decoration-blue-600 "} block mt-4 lg:inline-block lg:mt-0 text-white-200 text-lg font-medium text-blue-600 hover:text-gray-600 hover:scale-105 mr-6 md:ml-10`}
+              className={`${location.pathname === "/services" && "underline decoration-blue-600 "} block mt-4 lg:inline-block lg:mt-0 text-white-200 text-lg md:text-xl font-medium text-blue-600 hover:text-gray-600 hover:scale-105 mr-6 md:ml-10`}
             >
               Services
             </a>
             <a
               href="/contacts"
-              className={`${location.pathname === "/contacts" && "underline decoration-blue-600 "} block mt-4 lg:inline-block lg:mt-0 text-white-200 text-lg font-medium text-blue-600 hover:text-gray-600 hover:scale-105 mr-6 md:ml-10`}>
+              className={`${location.pathname === "/contacts" && "underline decoration-blue-600 "} block mt-4 lg:inline-block lg:mt-0 text-white-200 text-lg md:text-xl font-medium text-blue-600 hover:text-gray-600 hover:scale-105 mr-6 md:ml-10`}>
               Contact
             </a>
             <a
               href="/blog"
-              className={`${location.pathname === "/contacts" && "underline decoration-blue-600 "} block mt-4 lg:inline-block lg:mt-0 text-white-200 text-lg font-medium text-blue-600 hover:text-gray-600 hover:scale-105 mr-6 md:ml-10`}>
+              className={`${location.pathname === "/contacts" && "underline decoration-blue-600 "} block mt-4 lg:inline-block lg:mt-0 text-white-200 text-lg md:text-xl font-medium text-blue-600 hover:text-gray-600 hover:scale-105 mr-6 md:ml-10`}>
               Blog
             </a>
           </div>

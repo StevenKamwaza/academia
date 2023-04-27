@@ -18,7 +18,7 @@ function App() {
               exact
               path="*"
               element={
-                <center className="h-screen pt-16 bg-gray-400">
+                <center className="h-96 max-xl:h-screen  pt-16 bg-gray-400">
                   <p className="text-center my-auto mt-10 text-xl  text-gray-700">
                     <b>Oops! </b>the page cannot be found
                   </p>
