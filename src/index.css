@@ -29,12 +29,11 @@ html::-webkit-scrollbar-track{
 html::-webkit-scrollbar-thumb{
   --tw-bg-opacity: 1;
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
-
   /* background-color: #0657c8; */
 }
 .bg-image{
   background-image: url("./components/assets/1.jpg");
 }
 .bg-image-login{
-  background-image: url("./components/assets/5e.jpg");
+  background-image: url("./components/assets/image.jpg");
 }
