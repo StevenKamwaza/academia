@@ -4,7 +4,7 @@ import {GrShare, GrTechnology, GrUserSettings} from 'react-icons/gr';
 
 function HeroCards() {
   return (
-    <motion.div className="container">
+    <center className="container mx-auto">
       <motion.div className="max-w-xl mx-auto text-center mt-24">
         <div data-aos="fade-up">
           <motion.h1 className="font-bold text-gray-600 my-3 text-2xl md:text-5xl ">
@@ -18,7 +18,7 @@ function HeroCards() {
         </motion.p>
       </motion.div>
 
-      <motion.div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:px-7 gap-14 md:gap-5 mt-20">
+      <motion.div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:px-7  gap-x-4 md:gap-x-4 mt-20">
         <div
           data-aos="fade-up"
           className="bg-white shadow-xl p-6 text-center rounded-xl"
@@ -76,8 +76,10 @@ function HeroCards() {
           <br />
         </div>
       </motion.div>
+
       
-    </motion.div>
+      
+    </center>
   );
 }
 

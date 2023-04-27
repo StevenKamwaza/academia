@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
 
-<footer class="mt-6 text-center bg-blue-600  text-gray-50">
+<footer class="text-center bg-blue-600  text-gray-50">
   <div class="container p-6">
     <div class="">
       <p class="flex items-center justify-center">
@@ -21,8 +21,7 @@ function Footer() {
 
   <div
     class="p-4 text-center text-xl bg-gray-950 bg-opacity-25">
-    ©{new Date().getFullYear()} E-nyasa Academia
-   
+    ©{new Date().getFullYear()} e-nyasa Academia
   </div>
 </footer>
   )

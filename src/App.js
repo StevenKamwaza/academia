@@ -1,19 +1,35 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
+import Login from "./pages/Login";
 
 function App() {
+
   return (
-    <div>
+    <>
       <BrowserRouter>
         <Layout>
           <Routes>
-            <Route exact path="/" element={<Home/>} />
-            <Route exact path="*" element={<>$04 page</>}/>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/login" element={<Login />} />
+            <Route
+              exact
+              path="*"
+              element={
+                <center className="h-screen pt-16 bg-gray-400">
+                  <p className="text-center my-auto mt-10 text-xl  text-gray-700">
+                    <b>Oops! </b>the page cannot be found
+                  </p>
+                  <code className="text-4xl md:text-5xl mt-4 font-extrabold ">
+                    404 Error
+                  </code>
+                </center>
+              }
+            />
           </Routes>
         </Layout>
       </BrowserRouter>
-    </div>
+    </>
   );
 }
 

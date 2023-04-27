@@ -35,3 +35,6 @@ html::-webkit-scrollbar-thumb{
 .bg-image{
   background-image: url("./components/assets/1.jpg");
 }
+.bg-image-login{
+  background-image: url("./components/assets/5e.jpg");
+}
